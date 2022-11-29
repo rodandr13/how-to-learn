@@ -7,6 +7,7 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #000;
 }
 
 .header {
@@ -16,6 +17,7 @@
   max-height: 756px;
   display: flex;
   align-items: center;
+  background: #f2f2f2;
   /* выше установили ограничения для секции */
 }
 
@@ -40,6 +42,18 @@
 .header__text {
   margin: 0;
   padding: 0;
+}
+
+.header__text_type_header {
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: 600;
+}
+
+.header__text_type_paragraph {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
 }
 
 .header__subtitle {
