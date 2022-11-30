@@ -117,9 +117,11 @@
   line-height: 34px;
   font-weight: normal;
 }
+
 .two-columns__span-accent {
   font-weight: 600;
 }
+
 .two-columns__paragraph:last-child {
   margin: 0;
 }
@@ -152,10 +154,12 @@
 
 .table {
   display: flex;
+  z-index: 91;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1100px;
   margin: auto;
+  list-style-type: none;
 }
 
 .table__cell {
@@ -224,8 +228,56 @@
   font-weight: normal;
 }
 
+.kaufman {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  background: #1f1f1f;
+}
+
+.section-subtitle_theme_dark {
+  color: #fff;
+}
+
+.section-title_theme_dark {
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: 600;
+  color: #fff;
+}
+
+.table__cell_theme_dark {
+  color: #fff;
+}
+
+.table__cell_theme_dark {
+  color: #fff;
+}
+
+.table__text_theme_dark {
+  color: #fff;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  top: 0;
+  right: -210px;
+  z-index: 90;
+  width: 877px;
+  height: 877px;
+  background: url("/images/kaufman-triangle.svg");
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+}
 
 
+.kaufman_indent_inside {
+  padding: 90px 0;
+}
 .content_indent-top_m {
   margin-top: 100px;
 }
