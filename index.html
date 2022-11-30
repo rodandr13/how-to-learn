@@ -11,7 +11,7 @@
 <div class="page">
   <header class="header">
     <div class="logo logo_place_header">
-      <img class="logo__image" src="images/logo_place_header.svg" alt="">
+      <a href="#"><img class="logo__image" src="images/logo_place_header.svg" alt="Логотип"></a>
     </div>
     <div class="header__title">
       <h1 class="header__text header__text_type_header">Научиться учиться</h1>
@@ -19,14 +19,14 @@
     <div class="header__subtitle">
       <p class="header__text header__text_type_paragraph">
         Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-        <a href="#">Узнать&nbsp;→</a>
+        <a class="header__link" href="#">Узнать&nbsp;→</a>
       </p>
     </div>
-    <div class="header__main-illustration"></div>
+    <img class="header__main-illustration" src="images/header-image.png" alt="Картина 'Опять двойка'">
     <div class="header__square-pic"></div>
   </header>
   <main class="content">
-    <section class="description content_indent-top_m">
+    <section class="description">
       <div class="two-columns">
         <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
         <div class="two-columns__main-text">
@@ -40,9 +40,9 @@
         </div>
       </div>
     </section>
-    <section class="digits content_indent-top_m">
-      <h2 class="section-title">Цифры и факты</h2>
-      <p class="section-subtitle content_indent-top_xs">Про учебу и мозг</p>
+    <section class="digits">
+      <h2 class="section-title digits__section-title">Цифры и факты</h2>
+      <p class="section-subtitle">Про учебу и мозг</p>
       <div class="table">
         <div class="table__cell">
           <h3 class="table__heading">86 миллиардов</h3>
@@ -80,15 +80,15 @@
         </div>
       </div>
     </section>
-    <section class="feynman content_indent-top_m">
+    <section class="feynman">
       <h2 class="feynman__title">Метод Фейнмана</h2>
       <p class="feynman__subtitle ">Выучить и не забыть.</p>
       <a class="feynman__link" href="#">Подробнее&nbsp;→</a>
       <img class="feynman__image" src="images/feynman.png" alt="Фотография Фейнмана">
     </section>
-    <section class="kaufman kaufman_indent_inside">
+    <section class="kaufman">
       <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
-      <p class="section-subtitle section-subtitle_theme_dark content_indent-top_xs">от Джоша Кауфмана</p>
+      <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
       <ul class="table table_theme_dark">
         <li class="table__cell table__cell_theme_dark">
           <h3 class="table__heading table__heading_theme_dark">1</h3>
@@ -124,7 +124,8 @@
         </li>
         <li class="table__cell table__cell_theme_dark">
           <h3 class="table__heading table__heading_theme_dark">9</h3>
-          <p class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
+          <p class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными
+            интервалами.</p>
         </li>
         <li class="table__cell table__cell_theme_dark">
           <h3 class="table__heading table__heading_theme_dark">10</h3>
@@ -138,7 +139,7 @@
     <div class="footer__columns">
       <div class="footer__column_content_copyright">
         <div class="logo logo_place_footer">
-          <a href="#"><img class="logo__image" src="images/logo_place_footer.svg" alt=""></a>
+          <a href="#"><img class="logo__image" src="images/logo_place_footer.svg" alt="Логотип"></a>
         </div>
         <div class="footer__author">&copy; Андрей Родителев</div>
       </div>
@@ -153,9 +154,22 @@
       <div class="footer__column_content_social">
         <h3 class="footer__column-heading">Соцсети</h3>
         <ul class="footer__column-links">
-          <li><a class="footer__column-link" href="#">YouTube</a></li>
-          <li><a class="footer__column-link" href="#">ВКонтакте</a></li>
-          <li><a class="footer__column-link" href="#">TikTok</a></li>
+          <li>
+            <a class="footer__column-link" href="#">
+              <img class="footer__social-icon_name_youtube" src="images/youtube-icon.svg" alt="Логотип YouTube">
+              YouTube</a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">
+              <img class="footer__social-icon_name_vk" src="images/vk_color_white.svg" alt="Логотип VK">
+              ВКонтакте</a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">
+              <img class="footer__social-icon_name_tiktok" src="images/tiktok-icon.svg" alt="Логотип ТикТока">
+              TikTok
+            </a>
+          </li>
         </ul>
       </div>
     </div>
