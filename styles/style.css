@@ -49,9 +49,11 @@
   text-decoration: none;
   color: #2f80ed;
 }
+
 .header__link:hover {
   text-decoration: underline;
 }
+
 .header__text_type_header {
   font-size: 102px;
   line-height: 96px;
@@ -251,6 +253,7 @@
   text-decoration: none;
   color: #2f80ed;
 }
+
 .feynman__link:hover {
   text-decoration: underline;
 }
@@ -328,12 +331,14 @@
   justify-content: space-between;
   flex-basis: 711px;
 }
+
 .footer__column-heading {
   font-size: 18px;
   line-height: 30px;
   font-weight: 600;
   color: #fff;
 }
+
 .footer__author {
   margin: 18px 0;
   font-size: 18px;
@@ -341,6 +346,7 @@
   font-weight: normal;
   color: #fff;
 }
+
 .footer__column-links {
   margin: 20px 0 16px 0;
   padding: 0;
