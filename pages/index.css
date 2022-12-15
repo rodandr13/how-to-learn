@@ -20,3 +20,6 @@
 @import "../blocks/two-columns/__span-accent/two-columns__span-accent.css";
 
 @import "../blocks/digits/digits.css";
+@import "../blocks/digits/__section-title/digits__section-title.css";
+
+@import "../blocks/section-title/section-title.css";
