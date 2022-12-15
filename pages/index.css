@@ -39,3 +39,6 @@
 @import "../blocks/feynman/__subtitle/feynman__subtitle.css";
 @import "../blocks/feynman/__link/feynman__link.css";
 @import "../blocks/feynman/__title/feynman__title.css";
+
+@import "../blocks/kaufman/kaufman.css";
+@import "../blocks/kaufman/__triangle/kaufman__triangle.css";
