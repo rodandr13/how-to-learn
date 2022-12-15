@@ -11,4 +11,12 @@
 @import "../blocks/logo/_place/logo_place_header.css";
 
 @import "../blocks/description/description.css";
+
+
+@import "../blocks/two-columns/two-columns.css";
+@import "../blocks/two-columns/__brief/two-columns__brief.css";
+@import "../blocks/two-columns/__main-text/two-columns__main-text.css";
+@import "../blocks/two-columns/__paragraph/two-columns__paragraph.css";
+@import "../blocks/two-columns/__span-accent/two-columns__span-accent.css";
+
 @import "../blocks/digits/digits.css";
