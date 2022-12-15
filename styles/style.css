@@ -96,14 +96,6 @@
   margin: 0;
 }
 
-.digits {
-  display: flex;
-  box-sizing: border-box;
-  flex-direction: column;
-  align-items: center;
-  padding: 100px 0;
-}
-
 .section-title {
   width: 60%;
   margin: 0;
