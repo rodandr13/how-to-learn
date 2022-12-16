@@ -29,6 +29,11 @@
 @import "../blocks/cards/__title/cards__title.css";
 @import "../blocks/cards/__description/cards__description.css";
 
+@import "../blocks/video/video.css";
+@import "../blocks/video/__section-title/video__section-title.css";
+@import "../blocks/video/__iframes/video__iframes.css";
+@import "../blocks/video/__iframe/video__iframe.css";
+
 @import "../blocks/two-columns/two-columns.css";
 @import "../blocks/two-columns/__brief/two-columns__brief.css";
 @import "../blocks/two-columns/__main-text/two-columns__main-text.css";
