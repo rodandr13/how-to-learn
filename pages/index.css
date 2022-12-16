@@ -2,6 +2,12 @@
 
 @import "../blocks/rotation/rotation.css";
 
+@import "../blocks/section-title/section-title.css";
+@import "../blocks/section-title/_theme/section-title_theme_dark.css";
+
+@import "../blocks/section-subtitle/section-subtitle.css";
+@import "../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css";
+
 @import "../blocks/header/header.css";
 @import "../blocks/header/__title/header__title.css";
 @import "../blocks/header/__link/header__link.css";
@@ -14,18 +20,14 @@
 
 @import "../blocks/description/description.css";
 
+@import "../blocks/techniques/techniques.css";
+@import "../blocks/techniques/__section-title/techniques__section-title.css";
 
 @import "../blocks/two-columns/two-columns.css";
 @import "../blocks/two-columns/__brief/two-columns__brief.css";
 @import "../blocks/two-columns/__main-text/two-columns__main-text.css";
 @import "../blocks/two-columns/__paragraph/two-columns__paragraph.css";
 @import "../blocks/two-columns/__span-accent/two-columns__span-accent.css";
-
-@import "../blocks/section-title/section-title.css";
-@import "../blocks/section-title/_theme/section-title_theme_dark.css";
-
-@import "../blocks/section-subtitle/section-subtitle.css";
-@import "../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css";
 
 @import "../blocks/digits/digits.css";
 @import "../blocks/digits/__section-title/digits__section-title.css";
