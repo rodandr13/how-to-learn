@@ -23,6 +23,12 @@
 @import "../blocks/techniques/techniques.css";
 @import "../blocks/techniques/__section-title/techniques__section-title.css";
 
+@import "../blocks/cards/cards.css";
+@import "../blocks/cards/__item/cards__item.css";
+@import "../blocks/cards/__image/cards__image.css";
+@import "../blocks/cards/__title/cards__title.css";
+@import "../blocks/cards/__description/cards__description.css";
+
 @import "../blocks/two-columns/two-columns.css";
 @import "../blocks/two-columns/__brief/two-columns__brief.css";
 @import "../blocks/two-columns/__main-text/two-columns__main-text.css";
