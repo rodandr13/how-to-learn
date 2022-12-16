@@ -1,0 +1,7 @@
+.resources {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-flow: wrap;
+  padding: 100px 0 0 0;
+}

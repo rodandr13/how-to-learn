@@ -71,6 +71,11 @@
 @import "../blocks/kaufman/kaufman.css";
 @import "../blocks/kaufman/__triangle/kaufman__triangle.css";
 
+@import "../blocks/resources/resources.css";
+@import "../blocks/resources/__section-title/resources__section-title.css";
+@import "../blocks/resources/__link/resources__link.css";
+@import "../blocks/resources/__logo-zone/resources__logo-zone.css";
+
 @import "../blocks/footer/footer.css";
 @import "../blocks/footer/__author/footer__author.css";
 @import "../blocks/footer/__column/_content/footer__column_content_copyright.css";
